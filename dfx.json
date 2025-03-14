@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "ii-integration": {
+      "source": [
+        "src/ii-integration/dist"
+      ],
+      "type": "assets",
+      "build": "npm run build --prefix src/ii-integration",
+      "pullable": {
+        "dependencies": [],
+        "wasm_url": "https://github.com/higayasuo/ii-integration/releases/latest/download/ii-integration.wasm.gz",
+        "init_guide": ""
+      }
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "networks": {
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
